@@ -2,8 +2,8 @@ project "STB"
 	kind "StaticLib"
 	language "C++"
 
-	targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
+	targetdir ("%{wks.location}/dependencies/libs/%{prj.name}")
+	objdir ("%{wks.location}/dependencies/libs/%{prj.name}")
 
 	files
 	{
